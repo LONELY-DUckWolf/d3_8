@@ -1,0 +1,85 @@
+.text-box h3:nth-child(odd) {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-child {
+    color: green;
+}
+
+.text-box .yellow {
+    color: yellow;
+}
+
+<div class="text-box"><h3>Пофарбуйте мене в рожевий колір (color:pink)</h3><p>Даний елемент має залишитись неоформленим.</p><p id='greycol'>Пофарбуйте мене в сірий колір (color:grey)</p><div>Даний елемент має залишитись неоформленим.</div><div>< <p>Пофарбуйте мене в червоний колір (color:red)</p></div><h3>Даний елемент має залишитись неоформленим.</h3><p>Пофарбуйте мене в зелений колір (color:green)</p><<p class='yellow'>Пофарбуйте мене в жовтий колір (color:yellow)</p></div</div>
+
+/* Пн - Чорний фон та білий текст */
+.lesson-list li:first-child {
+    background-color: black;
+    color: white;
+}
+
+/* Вт - Зелений фон та білий текст */
+.lesson-list li:nth-child(2) {
+    background-color: green;
+    color: white;
+}
+
+/* Ср - Синій фон та білий текст */
+.lesson-list li:nth-child(3) {
+    background-color: blue;
+    color: white;
+}
+
+/* Чт - Помаранчевий фон та чорний текст */
+.lesson-list li:nth-child(4) {
+    background-color: orange;
+    color: black;
+}
+
+/* Пт - Червоний фон та білий текст */
+.lesson-list li:last-child {
+    background-color: red;
+    color: white;
+}
+
+/* Перший елемент у списку */
+.lesson-list li:first-child {
+    font-weight: bold;
+}
+
+/* Останній елемент у списку */
+.lesson-list li:last-child {
+    text-decoration: underline;
+}
+
+/* Елементи з парним порядковим номером */
+.lesson-list li:nth-child(even) {
+    font-style: italic;
+}
+
+/* Елементи з непарним порядковим номером */
+.lesson-list li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+/* Псевдоклас для першого елемента списку (пн) */
+.lesson-list li:first-child {
+    background-color: black;
+    color: white;
+}
+
+/* Псевдоклас для останнього елемента списку (пт) */
+.lesson-list li:last-child {
+    background-color: red;
+    color: white;
+}
+
+</style><div class="lesson-list"><ul><li>Пн - Урок 0</li><li>Вт - Урок 1</li>< <li>Ср - Урок 2</li><li>Чт - Урок 3</li><li>Пт - Урок 4</li></ul></div>
